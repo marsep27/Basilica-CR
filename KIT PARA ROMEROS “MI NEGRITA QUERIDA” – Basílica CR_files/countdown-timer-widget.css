@@ -1,0 +1,31 @@
+.countdown-items {
+    display: inline-block;
+    width: 150px;
+    background-color: #6ec1e4;
+    margin: 0px 20px;
+}
+.countdown-items .ctw-digits{
+	display: block;
+    font-size: 64px;
+	text-align:center;
+}
+.countdown-items .ctw-label {
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+}
+.finished-message{
+	text-align:center;
+}
+
+/* media query css */
+@media(max-width: 493px) {
+    .countdown-items { width: 15%; }
+	.countdown-items .ctw-digits{ font-size:20px; }
+	.countdown-items .ctw-label{ font-size:10px; }
+}
+
+
+
+
+
