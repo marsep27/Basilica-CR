@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#shipping_method > li {
+    display: inline-flex;
+	text-indent: 0 !important; 
+}
+#shipping_method .shipping_method {
+    display: block;
+    margin-top: 5px !important;
+}
+#shipping_method {
+  margin: 2em 0 0.5em;
+}
+
+/*
+for shipping options on cart page
+*/
+.cart_totals.calculated_shipping tr.shipping th {display: inline;margin-bottom: -35px;padding-left:10px;}
+.cart_totals.calculated_shipping tr.shipping th:after{content:":"}
+.cart_totals.calculated_shipping tr.shipping td{padding-top:25px}
+.cart_totals.calculated_shipping tr.shipping td:before{display:none !important;}
